@@ -1,1 +1,16 @@
+/* carousel section responsive  */
+.top-banner{
+    margin-bottom: 220px !important;
+}
+@media only screen and (max-width: 767px){
+    .top-banner{
+        margin-bottom: 0px !important;
+    }
+    #carouselExampleCaptions .carousel-item img{
 
+        height: 50vh;
+        object-fit: cover;
+    }
+        
+
+}
